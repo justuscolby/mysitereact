@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container {
+  width: min(100% - 4rem, 70rem);
+  margin-inline: 12px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-block: 20px;
+}
+
+section p {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+  aspect-ratio: 1;
+  border-radius: 50px;
+  border: solid rgb(104, 104, 151) 3px;
+}
+
+footer {
+  text-align: center;
+}
